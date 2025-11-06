@@ -1,0 +1,85 @@
+/* ===== White-Blue Modern Theme ===== */
+
+/* General Page Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9fbff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #004aad;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #004aad !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+/* Footer */
+footer {
+  background-color: #f0f3ff;
+  color: #004aad;
+  font-size: 0.95rem;
+}
+
+footer a {
+  color: #004aad;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #004aad;
+  border-color: #004aad;
+}
+
+.btn-primary:hover {
+  background-color: #0066ff;
+  border-color: #0066ff;
+}
+
+/* Contact Form */
+form {
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+  border-radius: 5px !important;
+}
+
+/* Spacing Helpers */
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+/* Card hover effects */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Profile picture hover */
+img.rounded-circle:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}

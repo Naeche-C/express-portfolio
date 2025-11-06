@@ -1,0 +1,20 @@
+<%- include('layout', { body: `
+  <div class="text-center">
+    <h1>Contact Me</h1>
+    <p class="lead mb-4">Feel free to reach out using the form below.</p>
+
+    <form class="mx-auto" style="max-width: 500px;" method="POST" action="#" novalidate>
+      <div class="mb-3">
+        <input id="name" type="text" class="form-control" placeholder="Your Name">
+      </div>
+      <div class="mb-3">
+        <input id="email" type="email" class="form-control" placeholder="Your Email">
+      </div>
+      <div class="mb-3">
+        <textarea id="message" class="form-control" rows="4" placeholder="Your Message"></textarea>
+      </div>
+      <button class="btn btn-primary w-100" type="submit">Send Message</button>
+    </form>
+  </div>
+` }) %>
+

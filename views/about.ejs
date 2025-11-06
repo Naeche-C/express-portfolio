@@ -1,0 +1,35 @@
+<%- include('layout', { body: `
+<div class="container text-center mt-5">
+  <h1 class="mb-3 text-primary fw-bold">About Me</h1>
+  <p class="text-muted mb-5">Get to know more about who I am and what I do</p>
+
+  <div class="row align-items-center justify-content-center">
+    <div class="col-md-4 mb-3">
+      <img src="/images/profile.jpg" alt="Profile Picture"
+           class="img-fluid rounded-circle shadow border border-3 border-primary"
+           style="width: 180px; height: 180px; object-fit: cover;">
+    </div>
+
+    <div class="col-md-6">
+      <p class="lead">
+        I'm <strong>Chinaechelum Chukwuemeka</strong>, a web development student passionate about designing secure and interactive web applications.
+        I have hands-on experience with <strong>HTML, CSS, JavaScript, Node.js, and ExpressJS</strong>, and I enjoy transforming ideas into practical solutions.
+      </p>
+
+      <p>
+        My goal is to keep improving as a developer by learning new frameworks and exploring cybersecurity practices that make systems safer.
+        When I'm not coding, I love exploring new tech tools and collaborating with others on creative projects.
+      </p>
+
+      <a href="/projects" class="btn btn-primary mt-2">
+         View My Projects
+      </a>
+      <a href="/contact" class="btn btn-outline-primary mt-2 ms-2">
+        <i class="fas fa-envelope"></i> Contact Me
+      </a>
+    </div>
+  </div>
+</div>
+` }) %>
+
+
