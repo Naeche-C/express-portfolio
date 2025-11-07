@@ -2,4 +2,7 @@ This project is my personal portfolio website built using Node.js, ExpressJS, an
 
 Live Site: https://express-portfolio-0egi.onrender.com
 
+⚠️ Note: This site is hosted on Render’s free plan. 
+It may take 30–60 seconds to load initially after a period of inactivity.
+
 
